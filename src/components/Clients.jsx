@@ -3,7 +3,7 @@ import appsCoLogo from "../assets/images/logos/apps-co.png";
 import minticLogo from "../assets/images/logos/mintic.png";
 import santanderLogo from "../assets/images/logos/santander.png";
 import todosPaisLogo from "../assets/images/logos/todos-pais.png";
-import viveDigitalLogo from "../assets/images/logos/vive-digital.png";
+import viveDigitalLogo from "../assets/images/logos/vive-digital-co.png";
 
 const Clients = ({ type }) => {
   return (
