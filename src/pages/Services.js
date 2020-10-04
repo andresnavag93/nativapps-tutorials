@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/App.scss";
+
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Instructions from "../components/Instructions";
@@ -12,8 +12,11 @@ const Services = () => {
   return (
     <>
       <Header />
-      <Banner />
-      <Instructions />
+      <main>
+        <Banner />
+        <Instructions />
+      </main>
+      {/*<Instructions />
       <Subscribe
         type={1}
         description={"y obtén precios especiales"}
@@ -27,7 +30,7 @@ const Services = () => {
       />
       <Clients />
       <Banner type={"onlyImage"} />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

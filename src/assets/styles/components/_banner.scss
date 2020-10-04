@@ -1,0 +1,46 @@
+.banneer__section {
+  position: relative;
+}
+
+.banner {
+  position: relative;
+  background-image: url("../images/banners/banner-low.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -12rem;
+}
+
+.banner__bg-color {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100vw;
+  background-color: $yellow-dark;
+}
+
+.banner__heading {
+  z-index: 1;
+  font-family: "Lato Heavy", sans-serif;
+  font-size: 10rem;
+}
+
+.banner__hr {
+  z-index: 1;
+  border-bottom: solid;
+  width: 48rem;
+}
+
+.banner__description {
+  z-index: 1;
+  font-size: 5rem;
+  font-weight: 400;
+}

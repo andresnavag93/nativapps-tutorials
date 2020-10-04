@@ -5,9 +5,9 @@ import InstructionDetail from "../components/InstructionDetail";
 const Instructions = () => {
   return (
     <section className="instructions">
-      <div className="container">
+      <div className="instructions__container">
         <h1>Como funciona</h1>
-        <div>------------</div>
+        <div className="banner__hr" />
         <h3>
           Clases en vivo, personalizadas para niños y jóvenes de colegio que les
           permite aprender de manera segura y desde cualquier lugar

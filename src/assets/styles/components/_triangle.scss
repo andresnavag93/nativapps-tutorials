@@ -1,0 +1,15 @@
+.triangle {
+  position: absolute;
+  z-index: 1;
+}
+
+.triangle-top {
+  top: -2rem;
+  // left: 0;
+}
+
+.triangle-bottom {
+  bottom: 0rem;
+  // left: 0;
+  transform: rotate(180deg);
+}
