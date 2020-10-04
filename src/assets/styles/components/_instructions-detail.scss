@@ -1,0 +1,52 @@
+.instruction-detail {
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 464px;
+  width: 392px;
+}
+
+.instruction-detail__img {
+  z-index: -1;
+  position: absolute;
+
+  height: 464px;
+  width: 392px;
+  // transform: rotate(0deg);
+}
+
+.instruction-detail__number {
+  font-size: 22.9rem;
+  font-family: "Roboto", "Lato Regular", sans-serif;
+  margin-left: -12rem;
+  // margin-bottom: 12rem;
+}
+
+.instruction-detail__description {
+  color: $gray;
+  font-family: "Lato Light", sans-serif;
+  text-align: center;
+  margin-left: 3rem;
+  width: 21rem;
+  font-size: 3.5rem;
+  // padding-top: 30rem;
+}
+
+.instruction-detail__rotate-triangle-2 {
+  left: -10rem;
+  top: -3rem;
+  transform: rotate(-140deg);
+}
+
+.instruction-detail__rotate-triangle-3 {
+  transform: rotate(5deg);
+}
+
+.instruction-detail__rotate-triangle-4 {
+  left: -4rem;
+  top: 2rem;
+  transform: rotate(83deg);
+}

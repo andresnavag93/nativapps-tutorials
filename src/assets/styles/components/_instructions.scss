@@ -1,0 +1,51 @@
+.instructions {
+  position: relative;
+}
+
+.instructions__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $gray;
+}
+
+.instructions__heading {
+  font-family: "Lato Heavy", sans-serif;
+  font-size: 10rem;
+}
+
+.instructions__hr {
+  margin: 4rem;
+  border-bottom: solid;
+  color: $brown;
+  width: 41.5rem;
+}
+
+.instructions__description {
+  text-align: center;
+  width: 115rem;
+  margin: 0 auto;
+  opacity: 0.69;
+  font-family: "Lato Light", sans-serif;
+  font-size: 4.8rem;
+}
+
+.instructions__play-button-img {
+  margin: 4rem auto;
+  width: 16.2rem;
+  height: 16.2rem;
+}
+
+.instructions__play-button-description {
+  font-family: "Lato Light", sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.instructions__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

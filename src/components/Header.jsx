@@ -1,13 +1,11 @@
 import React from "react";
 import youtubeLogo from "../assets/images/logos/youtube.png";
 
-// import "../assets/styles/components/_header.scss";
-
 const Header = () => {
   return (
     <header className="header">
       <figure className="header__logo">
-        <img src={youtubeLogo} height="50" alt="Logo de youtube" />
+        <img src={youtubeLogo} height="73" alt="Logo de youtube" />
       </figure>
       <nav className="header__menu">
         <ol>
