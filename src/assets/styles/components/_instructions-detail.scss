@@ -13,7 +13,7 @@
   z-index: -1;
   position: absolute;
 
-  height: 464px;
+  // height: 464px;
   width: 392px;
   // transform: rotate(0deg);
 }
@@ -49,4 +49,12 @@
   left: -4rem;
   top: 2rem;
   transform: rotate(83deg);
+}
+
+@media (max-width: 600px) {
+  .instruction-detail__img {
+    // height: 264px;
+    width: 292px;
+    // transform: rotate(0deg);
+  }
 }

@@ -1,9 +1,9 @@
-.instructions {
+.plans {
   position: relative;
   z-index: 2;
 }
 
-.instructions__container {
+.plans__container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,19 +12,20 @@
   color: $gray;
 }
 
-.instructions__heading {
+.plans__heading {
   font-family: "Lato Heavy", sans-serif;
   font-size: 10rem;
+  text-align: center;
 }
 
-.instructions__hr {
+.plans__hr {
   margin: 4rem;
   border-bottom: solid;
   color: $brown;
   width: 41.5rem;
 }
 
-.instructions__description {
+.plans__description {
   text-align: center;
   margin: 0 auto;
   opacity: 0.69;
@@ -32,19 +33,19 @@
   font-size: 4.8rem;
 }
 
-.instructions__play-button-img {
+.plans__play-button-img {
   margin: 4rem auto;
   width: 16.2rem;
   height: 16.2rem;
 }
 
-.instructions__play-button-description {
+.plans__play-button-description {
   font-family: "Lato Light", sans-serif;
   text-align: center;
   font-size: 3.5rem;
 }
 
-.instructions__details {
+.plans__details {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   // display: flex;

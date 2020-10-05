@@ -20,6 +20,7 @@ const Services = () => {
           description={"y obtén precios especiales"}
           dialogBoxMessage={"Me interesa"}
         />
+        <Plans />
         <Subscribe
           type={2}
           description={"y obtén clases GRATIS"}
@@ -27,12 +28,6 @@ const Services = () => {
         />
       </main>
       {/*
-      <Plans />
-      <Subscribe
-        type={2}
-        description={"y obtén clases GRATIS"}
-        dialogBoxMessage={"Subscribirme"}
-      />
       <Clients />
       <Banner type={"onlyImage"} />
       <Footer /> */}

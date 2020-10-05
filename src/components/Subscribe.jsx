@@ -34,18 +34,12 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
         }`}
       >
         <Triangle />
-
         <img
           className="subscribe__triangle-img"
           src={triangleGray}
           alt="Image de fondo"
         />
         {content}
-        {/* {type == 2 && <h1 className="subscribe__promotions">20%</h1>}
-        <h1 className="subscribe__heading">Subscríbete</h1>
-        <div className="subscribe__hr"></div>
-        <h3 className="subscribe__description">{description}</h3> */}
-
         <button className="subscribe__button"> Correo electronico</button>
         <img
           className="subscribe__dialog-box"
@@ -53,7 +47,6 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
           alt="Image de fondo"
         ></img>
         <h3 className="subscribe__dialog-box-text">{dialogBoxMessage}</h3>
-
         <div className="subscribe__bg-color"></div>
         <Triangle rotate={true} />
       </div>
