@@ -15,13 +15,18 @@ const Services = () => {
       <main>
         <Banner />
         <Instructions />
+        <Subscribe
+          type={1}
+          description={"y obtén precios especiales"}
+          dialogBoxMessage={"Me interesa"}
+        />
+        <Subscribe
+          type={2}
+          description={"y obtén clases GRATIS"}
+          dialogBoxMessage={"Subscribirme"}
+        />
       </main>
-      {/*<Instructions />
-      <Subscribe
-        type={1}
-        description={"y obtén precios especiales"}
-        dialogBoxMessage={"Me interesa"}
-      />
+      {/*
       <Plans />
       <Subscribe
         type={2}

@@ -1,24 +1,62 @@
 import React from "react";
-import subcribeImage1 from "../assets/images/banners/subscribe-1.jpg";
-import subcribeImage2 from "../assets/images/banners/subscribe-2.jpg";
 import dialogBox from "../assets/images/icons/dialog-box.png";
 import triangleGray from "../assets/images/icons/triangle-gray.png";
+import Triangle from "./Triangle";
 
 const Subscribe = ({ type, dialogBoxMessage, description }) => {
-  let img;
-  type === 1 ? (img = subcribeImage1) : (img = subcribeImage2);
+  let img, content;
+
+  if (type == 1)
+    content = (
+      <>
+        {" "}
+        <h1 className="subscribe__promotions-number">20%</h1>
+        <h1 className="subscribe__heading">Subscríbete</h1>
+        <div className="subscribe__hr"></div>
+        <h3 className="subscribe__description">{description}</h3>
+      </>
+    );
+  else {
+    content = (
+      <div className="subscribe__promotions-heading ">
+        <h1 className="subscribe__heading">Subscríbete</h1>
+        <div className="subscribe__hr"></div>
+        <h3 className="subscribe__description">{description}</h3>
+      </div>
+    );
+  }
 
   return (
-    <section className="susbcribe">
-      <img src={img} height="73" alt="Image de fondo" />;
-      <img src={triangleGray} height="73" alt="Image de fondo" />
-      {type == 2 && <h1>20%</h1>}
-      <h1>Subscríbete</h1>
-      <div>------------</div>
-      <h3>{description}</h3>
-      <button> Correo electronico</button>
-      <img src={dialogBox} height="73" alt="Image de fondo" />
-      <h3>{dialogBoxMessage}</h3>
+    <section className="susbcribe__section">
+      <div
+        className={`subscribe ${
+          type === 1 ? "subscribe__bg-img-1" : "subscribe__bg-img-2"
+        }`}
+      >
+        <Triangle />
+
+        <img
+          className="subscribe__triangle-img"
+          src={triangleGray}
+          alt="Image de fondo"
+        />
+        {content}
+        {/* {type == 2 && <h1 className="subscribe__promotions">20%</h1>}
+        <h1 className="subscribe__heading">Subscríbete</h1>
+        <div className="subscribe__hr"></div>
+        <h3 className="subscribe__description">{description}</h3> */}
+
+        <button className="subscribe__button"> Correo electronico</button>
+        <img
+          className="subscribe__dialog-box"
+          src={dialogBox}
+          alt="Image de fondo"
+        ></img>
+        <h3 className="subscribe__dialog-box-text">{dialogBoxMessage}</h3>
+
+        <div className="subscribe__bg-color"></div>
+        <Triangle rotate={true} />
+      </div>
     </section>
   );
 };
