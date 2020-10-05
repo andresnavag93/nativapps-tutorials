@@ -33,6 +33,7 @@
   opacity: 0.69;
   font-family: "Lato Light", sans-serif;
   font-size: 2.8rem;
+  padding: 0 2rem;
 }
 
 .clients__logos {
@@ -48,11 +49,12 @@
   align-self: center;
   padding: 3rem;
   width: 300px;
+  padding: 0 2rem;
 }
 
 @media screen and (max-width: 768px) {
   .clients__heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .clients__hr {
@@ -66,7 +68,7 @@
 
 @media screen and (max-width: 425px) {
   .clients__heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .clients__hr {
@@ -74,6 +76,6 @@
   }
 
   .clients__description {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }

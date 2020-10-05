@@ -33,7 +33,7 @@ const PlanDetail = ({
       <img
         className="plans-detail__dialog-box-text"
         src={dialogBoxText}
-        height="73"
+        height="53"
         alt="Dialog Box Text"
       />
       {type === "promotion" && (

@@ -5,12 +5,12 @@ const Triangle = ({ rotate = false, size = 300 }) => {
     <svg
       className={`triangle ${rotate ? "triangle-top" : "triangle-bottom"}`}
       xmlns="http://www.w3.org/2000/svg"
-      viewBox={rotate ? "0 0 1440 150" : "0 0 1440 200"}
+      viewBox={rotate ? "0 0 1440 250" : "0 0 1440 200"}
     >
       <path
         fill="#fff"
         fillOpacity="10"
-        d={rotate ? "M0,0L0,150L1440,0L0,0Z" : "M0,0L0,200L1440,0L0,0Z"}
+        d={rotate ? "M0,0L0,250L1440,0L0,0Z" : "M0,0L0,200L1440,0L0,0Z"}
       ></path>
     </svg>
   );

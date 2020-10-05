@@ -8,7 +8,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 1000px;
   width: 100vw;
   color: white;
   display: flex;
@@ -22,7 +22,7 @@
   position: absolute;
   z-index: 0;
   opacity: 0.8;
-  height: 100vh;
+  height: 1000px;
   width: 100vw;
   background-color: $yellow-dark;
 }
@@ -48,13 +48,13 @@
 
 @media screen and (max-width: 1023px) {
   .banner {
-    margin-top: 12rem;
+    margin-top: 0rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .banner__heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .banner__hr {
@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 425px) {
   .banner__heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .banner__hr {
