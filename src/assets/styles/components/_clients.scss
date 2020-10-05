@@ -1,0 +1,79 @@
+.clients {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.clients__container {
+  padding-top: 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $gray;
+  margin-bottom: 1rem;
+}
+
+.clients__heading {
+  font-family: "Lato Heavy", sans-serif;
+  font-size: 8rem;
+}
+
+.clients__hr {
+  margin: 4rem;
+  border-bottom: solid;
+  color: $brown;
+  width: 41.5rem;
+}
+
+.clients__description {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.69;
+  font-family: "Lato Light", sans-serif;
+  font-size: 2.8rem;
+}
+
+.clients__logos {
+  margin: 1rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients__logos-detail {
+  align-self: center;
+  padding: 3rem;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .clients__heading {
+    font-size: 6rem;
+  }
+
+  .clients__hr {
+    width: 225px;
+  }
+
+  .clients__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .clients__heading {
+    font-size: 4rem;
+  }
+
+  .clients__hr {
+    width: 125px;
+  }
+
+  .clients__description {
+    font-size: 1.8rem;
+  }
+}

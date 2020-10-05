@@ -1,0 +1,94 @@
+.plans-detail {
+  margin: 0 4rem;
+  position: relative;
+  background-image: url("../images/icons/plan-box.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5rem;
+  color: white;
+  height: 500px;
+  width: 300px;
+  text-align: center;
+}
+
+.plans-detail__price {
+  margin-top: 5rem;
+  margin-right: 3rem;
+  font-size: 4rem;
+  font-family: "Roboto", "Lato Regular", sans-serif;
+}
+
+.plans-detail__name {
+  margin-top: 1rem;
+  margin-right: 3rem;
+  font-size: 2.5rem;
+  font-family: "Roboto", "Lato Regular", sans-serif;
+}
+
+.plans-detail__time {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.plans-detail__schedule {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.plans-detail__schedule-hour {
+  color: $dark-red;
+  font-family: "Mayraid Pro", "Lato Regular", sans-serif;
+  font-size: 1.5rem;
+  font-size: 7rem;
+}
+
+.plans-detail__schedule-hour-word {
+  text-align: left;
+  font-family: "Roboto", "Lato Regular", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.plans-detail__schedule-description {
+  text-align: left;
+  font-family: "Roboto", "Lato Regular", sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.plans-detail__ul {
+  font-size: 1.3rem;
+  font-family: "Roboto", "Lato Light", sans-serif;
+  padding-left: 8rem;
+  text-align: left;
+  color: gray;
+}
+
+.plans-detail__li-custom {
+  color: $dark-blue;
+}
+
+.plans-detail__dialog-box-text {
+  margin-left: -2rem;
+}
+
+.plans-detail__premium-icon {
+  margin-top: -3rem;
+  margin-right: 3rem;
+  top: 0;
+  right: 0;
+  position: absolute;
+  margin-left: -2rem;
+}
+
+.plans__details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

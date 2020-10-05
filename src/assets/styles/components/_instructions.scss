@@ -1,0 +1,85 @@
+.instructions {
+  position: relative;
+  z-index: 2;
+}
+
+.instructions__container {
+  padding-top: 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $gray;
+}
+
+.instructions__heading {
+  font-family: "Lato Heavy", sans-serif;
+  font-size: 8rem;
+}
+
+.instructions__hr {
+  margin: 3rem;
+  border-bottom: solid;
+  color: $brown;
+  width: 325px;
+}
+
+.instructions__description {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.69;
+  font-family: "Lato Regular", sans-serif;
+  font-size: 3.8rem;
+  margin: 0, 10rem;
+}
+
+.instructions__play-button-img {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3rem;
+  width: 16.2rem;
+  height: 16.2rem;
+}
+
+.instructions__play-button-description {
+  font-family: "Lato Light", sans-serif;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.instructions__details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .instructions__heading {
+    font-size: 6rem;
+  }
+
+  .instructions__hr {
+    width: 225px;
+  }
+
+  .instructions__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .instructions__heading {
+    font-size: 4rem;
+  }
+
+  .instructions__hr {
+    width: 125px;
+  }
+
+  .instructions__description {
+    font-size: 1.3rem;
+  }
+}

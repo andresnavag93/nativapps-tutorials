@@ -8,18 +8,45 @@ import viveDigitalLogo from "../assets/images/logos/vive-digital-co.png";
 const Clients = ({ type }) => {
   return (
     <section className="clients">
-      <h1>¡Servicio de calidad y credibilidad!</h1>
-      <div>------------</div>
-      <h3>
-        Contamos con el apoyo gubernamental local y nacional para una efectiva
-        entrega de contenidos y clases de calidad certificadas.
-      </h3>
-
-      <img src={minticLogo} height="73" alt="Logo de MinTic" />
-      <img src={santanderLogo} height="73" alt="Logo de Santander" />
-      <img src={viveDigitalLogo} height="73" alt="Logo de Vive Digital" />
-      <img src={appsCoLogo} height="73" alt="Logo de Apps.co" />
-      <img src={todosPaisLogo} height="73" alt="Logo de Todos Pais" />
+      <div className="clients__container">
+        <h1 className="clients__heading">¡Servicio de calidad</h1>
+        <h1 className="clients__heading">y credibilidad!</h1>
+        <div className="clients__hr" />
+        <h3 className="clients__description">
+          Contamos con el apoyo gubernamental local y nacional
+        </h3>
+        <h3 className="clients__description">
+          para una efectiva entrega de contenidos y clases de calidad
+          certificadas.
+        </h3>
+        <img
+          className="clients__logos-detail"
+          src={minticLogo}
+          alt="Logo de MinTic"
+        />
+      </div>
+      <div className="clients__logos">
+        <img
+          className="clients__logos-detail"
+          src={santanderLogo}
+          alt="Logo de Santander"
+        />
+        <img
+          className="clients__logos-detail"
+          src={viveDigitalLogo}
+          alt="Logo de Vive Digital"
+        />
+        <img
+          className="clients__logos-detail"
+          src={appsCoLogo}
+          alt="Logo de Apps.co"
+        />
+        <img
+          className="clients__logos-detail"
+          src={todosPaisLogo}
+          alt="Logo de Todos Pais"
+        />
+      </div>
     </section>
   );
 };

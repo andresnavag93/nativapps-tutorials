@@ -1,0 +1,83 @@
+.plans {
+  position: relative;
+  z-index: 2;
+}
+
+.plans__container {
+  padding-top: 10rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $gray;
+}
+
+.plans__heading {
+  font-family: "Lato Heavy", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+}
+
+.plans__hr {
+  margin: 4rem;
+  border-bottom: solid;
+  color: $brown;
+  width: 41.5rem;
+}
+
+.plans__description {
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.69;
+  font-family: "Lato Light", sans-serif;
+  font-size: 2.8rem;
+}
+
+.plans__play-button-img {
+  margin: 4rem auto;
+  width: 16.2rem;
+  height: 16.2rem;
+}
+
+.plans__play-button-description {
+  font-family: "Lato Light", sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.plans__details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .plans__heading {
+    font-size: 6rem;
+  }
+
+  .plans__hr {
+    width: 225px;
+  }
+
+  .plans__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .plans__heading {
+    font-size: 4rem;
+  }
+
+  .plans__hr {
+    width: 125px;
+  }
+
+  .plans__description {
+    font-size: 1.8rem;
+  }
+}

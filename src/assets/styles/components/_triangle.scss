@@ -1,0 +1,13 @@
+.triangle {
+  position: absolute;
+  z-index: 1;
+}
+
+.triangle-top {
+  top: 0rem;
+}
+
+.triangle-bottom {
+  bottom: 0rem;
+  transform: rotate(180deg);
+}
