@@ -53,6 +53,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .banner,
+  .banner__bg-color {
+    height: 600px;
+  }
   .banner__heading {
     font-size: 5rem;
   }
