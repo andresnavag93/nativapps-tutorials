@@ -20,7 +20,7 @@ const Clients = ({ type }) => {
           certificadas.
         </h3>
         <img
-          className="clients__logos-detail"
+          className="clients__logos-detail clients__logos-detail-mt"
           src={minticLogo}
           alt="Logo de MinTic"
         />
