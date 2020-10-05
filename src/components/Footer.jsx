@@ -9,16 +9,16 @@ const Footer = () => (
       <div className="footer__info">
         <ol className="footer__info-ol">
           <li>
-            <a href="/">QUIÉNES SOMOS</a>
+            <a href="#">QUIÉNES SOMOS</a>
           </li>
           <li>
-            <a href="/">TÉRMINOS & CONDICIONES</a>
+            <a href="#">TÉRMINOS & CONDICIONES</a>
           </li>
           <li>
-            <a href="/">PREGUNTAS FRECUENTES</a>
+            <a href="#">PREGUNTAS FRECUENTES</a>
           </li>
           <li>
-            <a href="/">CONTÁCTENOS</a>
+            <a href="#">CONTÁCTENOS</a>
           </li>
         </ol>
         <img

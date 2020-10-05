@@ -8,22 +8,22 @@ const Header = () => {
   const contentNav = (
     <ol>
       <li>
-        <a className="header__menu-link" href="/">
+        <a className="header__menu-link" href="#">
           Home
         </a>
       </li>
       <li>
-        <a className="header__menu-link" href="/">
+        <a className="header__menu-link" href="#">
           About us
         </a>
       </li>
       <li>
-        <a className="header__menu-link  header__link-active" href="/">
+        <a className="header__menu-link  header__link-active" href="#">
           Services
         </a>
       </li>
       <li>
-        <a className="header__menu-link" href="/">
+        <a className="header__menu-link" href="#">
           Success stories
         </a>
       </li>

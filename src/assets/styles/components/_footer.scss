@@ -39,6 +39,7 @@
 
 .footer__info-ol {
   margin-bottom: 4rem;
+  margin-left: 15rem;
 }
 
 .footer__info a {
@@ -61,6 +62,10 @@
     margin-right: 5rem;
     margin-bottom: -12rem;
   }
+
+  .footer__info-ol {
+    margin-left: 6rem;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -80,5 +85,21 @@
   .footer__info-img {
     margin: 0 20rem;
     margin-bottom: -5rem;
+    // margin-left: 2rem;
+  }
+
+  .footer__info-ol {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__info-img {
+    margin: 0 20rem;
+    margin-bottom: -5rem;
+  }
+
+  .footer__info-ol {
+    margin-left: 1rem;
   }
 }
