@@ -14,11 +14,11 @@ const Header = () => {
       </li>
       <li>
         <a className="header__menu-link" href="/">
-          About Us
+          About us
         </a>
       </li>
       <li>
-        <a className="header__menu-link" href="/">
+        <a className="header__menu-link  header__link-active" href="/">
           Services
         </a>
       </li>
@@ -48,7 +48,7 @@ const Header = () => {
         )}
       </div>
 
-      <div className={`prueba ${active}`}></div>
+      <div className={`header__nav-responsive ${active}`}></div>
 
       <header className="header">
         <figure className="header__logo">

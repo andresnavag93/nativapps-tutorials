@@ -22,6 +22,17 @@
   background-image: url("../images/banners/subscribe-2-low.jpg");
 }
 
+.subscribe__bg-triangle {
+  position: relative;
+  z-index: 0;
+  background-image: url("../images/icons/triangle-gray.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 330px;
+  width: 230px;
+}
+
 .subscribe__bg-color {
   position: absolute;
   z-index: 0;
@@ -34,15 +45,15 @@
 .subscribe__promotions-number {
   z-index: 1;
   font-family: "Myriad Pro", "Lato Heavy", sans-serif;
-  font-size: 14.5rem;
-  margin: 5rem 0;
+  font-size: 10rem;
+  padding-top: 13rem;
+  margin-top: -10rem;
 }
 
 .subscribe__promotions-heading {
   z-index: 1;
   text-align: center;
-  margin: 6rem 0;
-  margin-top: -12rem;
+  margin-top: -10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,20 +62,30 @@
 
 .subscribe__heading {
   z-index: 1;
+  margin-top: -3rem;
   font-family: "Lato Heavy", sans-serif;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .subscribe__hr {
   z-index: 1;
   border-bottom: solid;
-  width: 41.5rem;
+  width: 285px;
 }
 
 .subscribe__description {
   z-index: 1;
   font-family: "Lato Light", sans-serif;
-  font-size: 4.8rem;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.subscribe__description-promotion {
+  z-index: 4;
+  font-family: "Lato Light", sans-serif;
+  font-size: 3.8rem;
+  margin-top: -12rem;
+  margin-bottom: 3rem;
 }
 
 .subscribe__button {
@@ -74,26 +95,97 @@
   font-family: "Myriad Pro", "Lato Light", sans-serif;
   font-size: 2.5rem;
   border-radius: 2rem;
-  padding: 3rem 14rem;
+  padding: 1.5rem 10rem;
   margin: 1rem 0rem;
 }
 
 .subscribe__dialog-box {
   z-index: 1;
-  width: 170;
+  width: 150px;
   margin-top: -3rem;
 }
 
 .subscribe__dialog-box-text {
   z-index: 1;
-  margin-top: -5.5rem;
+  margin-top: -4rem;
   font-family: "Myriad Pro", "Lato Light", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .subscribe__triangle-img {
   position: absolute;
   z-index: 1;
-  height: 40rem;
+  height: 400px;
   top: 12rem;
+}
+
+.subscribe_promotions {
+  margin-top: -10rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribe__description-promotion {
+    margin-top: -12rem;
+    margin-bottom: 3rem;
+  }
+
+  .subscribe__button {
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe__description-promotion {
+    margin-top: -14rem;
+    margin-bottom: 3rem;
+    font-size: 2.8rem;
+  }
+
+  .subscribe__bg-triangle {
+    width: 200px;
+  }
+
+  .subscribe__button {
+    margin-top: 4rem;
+    padding: 1.5rem 7rem;
+    font-size: 2rem;
+  }
+
+  .subscribe__heading {
+    font-size: 6rem;
+  }
+
+  .subscribe__hr {
+    width: 225px;
+  }
+
+  .subscribe__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .subscribe__description-promotion {
+    margin-top: -15rem;
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+  }
+
+  .subscribe__button {
+    margin-top: 8rem;
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+  }
+
+  .subscribe__heading {
+    font-size: 4rem;
+  }
+
+  .subscribe__hr {
+    width: 125px;
+  }
+
+  .subscribe__description {
+    font-size: 1.8rem;
+  }
 }

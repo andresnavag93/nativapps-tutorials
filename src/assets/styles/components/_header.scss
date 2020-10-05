@@ -4,7 +4,7 @@
   position: fixed;
   background-color: white;
   color: white;
-  height: 140px;
+  height: 130px;
   align-items: center;
   padding: 4rem;
   box-shadow: 0px 0px 10px 0px gray;
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   height: inherit;
-  padding: 0 3rem;
+  margin: 0 3rem;
 }
 
 .header ol {
@@ -49,6 +49,13 @@
   height: inherit;
 }
 
+.header__link-active,
+.header__menu-link:hover {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 0.1rem solid $gray;
+}
+
 @media screen and (max-width: 1023px) {
   .header-icon {
     z-index: 30;
@@ -57,9 +64,11 @@
     padding-left: 3rem;
     padding-right: 3rem;
     border-bottom-right-radius: 0rem;
+    top: 0;
   }
 
   .header-icon.is-active {
+    background-color: white;
     border-bottom-right-radius: 4rem;
     height: auto;
   }
@@ -72,7 +81,6 @@
     z-index: 30;
     padding-left: 0;
     align-self: flex-start;
-    // display: flex;
   }
 
   .header__menu-responsive {
@@ -84,21 +92,20 @@
   }
 
   .header__menu-link {
-    padding: 3rem 0rem;
+    margin-top: 3rem;
   }
 
-  .prueba {
+  .header__nav-responsive {
     background: rgba(0, 0, 0, 0.7);
-    z-index: 10;
+    z-index: 20;
     top: 0;
     height: 100vh;
     left: -100vw;
     width: 100vw;
-    // height: inherit;
     position: fixed;
   }
 
-  .prueba.is-active {
+  .header__nav-responsive.is-active {
     left: 0;
   }
 }

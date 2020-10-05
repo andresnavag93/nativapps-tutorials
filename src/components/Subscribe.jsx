@@ -10,7 +10,9 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
     content = (
       <>
         {" "}
-        <h1 className="subscribe__promotions-number">20%</h1>
+        <h1 className="subscribe__promotions-number subscribe__bg-triangle">
+          20%
+        </h1>
         <h1 className="subscribe__heading">Subscríbete</h1>
         <div className="subscribe__hr"></div>
         <h3 className="subscribe__description">{description}</h3>
@@ -18,11 +20,13 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
     );
   else {
     content = (
-      <div className="subscribe__promotions-heading ">
-        <h1 className="subscribe__heading">Subscríbete</h1>
-        <div className="subscribe__hr"></div>
-        <h3 className="subscribe__description">{description}</h3>
-      </div>
+      <>
+        <div className="subscribe__promotions-heading subscribe__bg-triangle">
+          <h1 className="subscribe__heading">Subscríbete</h1>
+          <div className="subscribe__hr"></div>
+        </div>
+        <h3 className="subscribe__description-promotion">{description}</h3>
+      </>
     );
   }
 
@@ -34,13 +38,8 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
         }`}
       >
         <Triangle />
-        <img
-          className="subscribe__triangle-img"
-          src={triangleGray}
-          alt="Image de fondo"
-        />
         {content}
-        <button className="subscribe__button"> Correo electronico</button>
+        <button className="subscribe__button"> Correo electrónico</button>
         <img
           className="subscribe__dialog-box"
           src={dialogBox}

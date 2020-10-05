@@ -4,8 +4,8 @@ import footerImage from "../assets/images/banners/footer.jpg";
 import Triangle from "./Triangle";
 
 const Banner = ({ type = "banner" }) => {
-  let content;
-  if (type === "onlyImage") {
+  let content, customStyle;
+  if (type === "footer") {
     content = <img src={footerImage} height="73" alt="Banner sin texto" />;
   } else {
     content = (
@@ -20,7 +20,9 @@ const Banner = ({ type = "banner" }) => {
     <section className="banner__section">
       <div className="banner">
         <Triangle />
-        {content}
+        <h1 className="banner__heading">Tutorías online</h1>
+        <div className="banner__hr" />
+        <h3 className="banner__description">Clases en vivo</h3>
         <div className="banner__bg-color"></div>
         <Triangle rotate={true} />
       </div>

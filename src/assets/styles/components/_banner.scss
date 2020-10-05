@@ -30,23 +30,52 @@
 .banner__heading {
   z-index: 1;
   font-family: "Lato Heavy", sans-serif;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .banner__hr {
   z-index: 1;
+  margin: 0.5rem;
   border-bottom: solid;
-  width: 41.5rem;
+  width: 325px;
 }
 
 .banner__description {
   z-index: 1;
   font-family: "Lato Light", sans-serif;
-  font-size: 4.8rem;
+  font-size: 3.8rem;
 }
 
 @media screen and (max-width: 1023px) {
   .banner {
-    margin-top: 0rem;
+    margin-top: 12rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner__heading {
+    font-size: 6rem;
+  }
+
+  .banner__hr {
+    width: 225px;
+  }
+
+  .banner__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__heading {
+    font-size: 4rem;
+  }
+
+  .banner__hr {
+    width: 125px;
+  }
+
+  .banner__description {
+    font-size: 1.8rem;
   }
 }

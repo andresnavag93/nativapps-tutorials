@@ -9,7 +9,7 @@ const Triangle = ({ rotate = false, size = 300 }) => {
     >
       <path
         fill="#fff"
-        // fillOpacity="1"
+        fillOpacity="10"
         d={rotate ? "M0,0L0,150L1440,0L0,0Z" : "M0,0L0,200L1440,0L0,0Z"}
       ></path>
     </svg>

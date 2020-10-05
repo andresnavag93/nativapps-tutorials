@@ -1,9 +1,10 @@
-.instructions {
+.clients {
+  text-align: center;
   position: relative;
   z-index: 2;
 }
 
-.instructions__container {
+.clients__container {
   padding-top: 10rem;
   position: relative;
   display: flex;
@@ -11,75 +12,68 @@
   align-items: center;
   justify-content: center;
   color: $gray;
+  margin-bottom: 1rem;
 }
 
-.instructions__heading {
+.clients__heading {
   font-family: "Lato Heavy", sans-serif;
   font-size: 8rem;
 }
 
-.instructions__hr {
-  margin: 3rem;
+.clients__hr {
+  margin: 4rem;
   border-bottom: solid;
   color: $brown;
-  width: 325px;
+  width: 41.5rem;
 }
 
-.instructions__description {
+.clients__description {
   text-align: center;
   margin: 0 auto;
   opacity: 0.69;
-  font-family: "Lato Regular", sans-serif;
-  font-size: 3.8rem;
-  margin: 0, 10rem;
-}
-
-.instructions__play-button-img {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 3rem;
-  width: 16.2rem;
-  height: 16.2rem;
-}
-
-.instructions__play-button-description {
   font-family: "Lato Light", sans-serif;
-  text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
-.instructions__details {
+.clients__logos {
+  margin: 1rem 2rem;
+  text-align: center;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
+.clients__logos-detail {
+  align-self: center;
+  padding: 3rem;
+  width: 300px;
+}
+
 @media screen and (max-width: 768px) {
-  .instructions__heading {
+  .clients__heading {
     font-size: 6rem;
   }
 
-  .instructions__hr {
+  .clients__hr {
     width: 225px;
   }
 
-  .instructions__description {
+  .clients__description {
     font-size: 2.8rem;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .instructions__heading {
+  .clients__heading {
     font-size: 4rem;
   }
 
-  .instructions__hr {
+  .clients__hr {
     width: 125px;
   }
 
-  .instructions__description {
-    font-size: 1.3rem;
+  .clients__description {
+    font-size: 1.8rem;
   }
 }

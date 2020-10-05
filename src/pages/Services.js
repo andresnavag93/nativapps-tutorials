@@ -26,11 +26,9 @@ const Services = () => {
           description={"y obtén clases GRATIS"}
           dialogBoxMessage={"Subscribirme"}
         />
+        <Clients />
       </main>
-      {/*
-      <Clients />
-      <Banner type={"onlyImage"} />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };

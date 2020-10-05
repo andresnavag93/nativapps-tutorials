@@ -26,9 +26,9 @@ const PlanDetail = ({
         </div>
       </div>
       <ul className="plans-detail__ul">
-        <li className="plans-detail__li">- Tips Academicos</li>
+        <li className="plans-detail__li">- Tips Académicos</li>
         <li className="plans-detail__li">- Clases Programadas</li>
-        <li className="plans-detail__li-custom">- Mas Informacion</li>
+        <li className="plans-detail__li-custom">- Más Información</li>
       </ul>
       <img
         className="plans-detail__dialog-box-text"

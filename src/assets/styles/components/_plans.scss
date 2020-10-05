@@ -4,6 +4,7 @@
 }
 
 .plans__container {
+  padding-top: 10rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,7 +15,7 @@
 
 .plans__heading {
   font-family: "Lato Heavy", sans-serif;
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center;
 }
 
@@ -30,7 +31,7 @@
   margin: 0 auto;
   opacity: 0.69;
   font-family: "Lato Light", sans-serif;
-  font-size: 4.8rem;
+  font-size: 2.8rem;
 }
 
 .plans__play-button-img {
@@ -46,10 +47,37 @@
 }
 
 .plans__details {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
-  // display: flex;
-  gap: 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .plans__heading {
+    font-size: 6rem;
+  }
+
+  .plans__hr {
+    width: 225px;
+  }
+
+  .plans__description {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .plans__heading {
+    font-size: 4rem;
+  }
+
+  .plans__hr {
+    width: 125px;
+  }
+
+  .plans__description {
+    font-size: 1.8rem;
+  }
 }
