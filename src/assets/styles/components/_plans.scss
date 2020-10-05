@@ -17,6 +17,7 @@
   font-family: "Lato Heavy", sans-serif;
   font-size: 8rem;
   text-align: center;
+  padding: 0 2rem;
 }
 
 .plans__hr {
@@ -32,6 +33,7 @@
   opacity: 0.69;
   font-family: "Lato Light", sans-serif;
   font-size: 2.8rem;
+  padding: 0 2rem;
 }
 
 .plans__play-button-img {
@@ -56,7 +58,7 @@
 
 @media screen and (max-width: 768px) {
   .plans__heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .plans__hr {
@@ -70,7 +72,7 @@
 
 @media screen and (max-width: 425px) {
   .plans__heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .plans__hr {
@@ -78,6 +80,6 @@
   }
 
   .plans__description {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 }

@@ -36,8 +36,8 @@
 
 .instructions__play-button-img {
   text-align: center;
-  margin: 0 auto;
-  margin-top: 3rem;
+  margin: 0rem auto;
+  // margin-top: 5rem;
   width: 16.2rem;
   height: 16.2rem;
 }
@@ -46,9 +46,11 @@
   font-family: "Lato Light", sans-serif;
   text-align: center;
   font-size: 2.5rem;
+  margin-bottom: 5rem;
 }
 
 .instructions__details {
+  padding: 4rem 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -58,7 +60,7 @@
 
 @media screen and (max-width: 768px) {
   .instructions__heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .instructions__hr {
@@ -72,7 +74,7 @@
 
 @media screen and (max-width: 425px) {
   .instructions__heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .instructions__hr {
