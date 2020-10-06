@@ -1,6 +1,6 @@
 import React from "react";
 
-const Triangle = ({ rotate = false, size = 300 }) => {
+const TriangleBackground = ({ rotate = false, size = 300 }) => {
   return (
     <svg
       className={`triangle ${rotate ? "triangle-top" : "triangle-bottom"}`}
@@ -16,4 +16,4 @@ const Triangle = ({ rotate = false, size = 300 }) => {
   );
 };
 
-export default Triangle;
+export default TriangleBackground;

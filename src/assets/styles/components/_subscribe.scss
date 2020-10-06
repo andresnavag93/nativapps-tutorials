@@ -33,15 +33,6 @@
   width: 230px;
 }
 
-.subscribe__bg-color {
-  position: absolute;
-  z-index: 0;
-  opacity: 0.6;
-  height: 1000px;
-  width: 100vw;
-  background-color: $brown;
-}
-
 .subscribe__promotions-number {
   z-index: 1;
   font-family: "Myriad Pro", "Lato Heavy", sans-serif;
@@ -112,15 +103,13 @@
   font-size: 2rem;
 }
 
-.subscribe__triangle-img {
+.subscribe__bg-color {
   position: absolute;
-  z-index: 1;
-  height: 400px;
-  top: 12rem;
-}
-
-.subscribe_promotions {
-  margin-top: -10rem;
+  z-index: 0;
+  opacity: 0.6;
+  height: 1000px;
+  width: 100vw;
+  background-color: $brown;
 }
 
 @media screen and (max-width: 1024px) {

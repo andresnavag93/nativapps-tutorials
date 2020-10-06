@@ -34,16 +34,6 @@
   font-family: "Lato Light", sans-serif;
   font-size: 2.8rem;
   padding: 0 2rem;
-  // padding-bottom: 3rem;
-}
-
-.clients__logos {
-  margin: 2rem 2rem;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
 .clients__logos-detail {
@@ -56,6 +46,15 @@
 
 .clients__logos-detail-mt {
   margin-top: 10rem;
+}
+
+.clients__logos {
+  margin: 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

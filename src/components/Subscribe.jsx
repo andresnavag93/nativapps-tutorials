@@ -1,7 +1,6 @@
 import React from "react";
 import dialogBox from "../assets/images/icons/dialog-box.png";
-import triangleGray from "../assets/images/icons/triangle-gray.png";
-import Triangle from "./Triangle";
+import TriangleBackground from "./TriangleBackground";
 
 const Subscribe = ({ type, dialogBoxMessage, description }) => {
   let img, content;
@@ -37,7 +36,7 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
           type === 1 ? "subscribe__bg-img-1" : "subscribe__bg-img-2"
         }`}
       >
-        <Triangle />
+        <TriangleBackground />
         {content}
         <button className="subscribe__button"> Correo electrónico</button>
         <img
@@ -47,7 +46,7 @@ const Subscribe = ({ type, dialogBoxMessage, description }) => {
         ></img>
         <h3 className="subscribe__dialog-box-text">{dialogBoxMessage}</h3>
         <div className="subscribe__bg-color"></div>
-        <Triangle rotate={true} />
+        <TriangleBackground rotate={true} />
       </div>
     </section>
   );

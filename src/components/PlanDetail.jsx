@@ -1,5 +1,4 @@
 import React from "react";
-import planBox from "../assets/images/icons/plan-box.png";
 import dialogBoxText from "../assets/images/icons/dialog-box-text.png";
 import premium from "../assets/images/icons/premium.png";
 import discount from "../assets/images/icons/discount.png";
