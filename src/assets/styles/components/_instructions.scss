@@ -34,6 +34,15 @@
   margin: 0, 10rem;
 }
 
+.instructions__details {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .instructions__play-button-img {
   text-align: center;
   margin: 0rem auto;
@@ -47,15 +56,6 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 5rem;
-}
-
-.instructions__details {
-  padding: 4rem 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {

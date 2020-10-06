@@ -1,11 +1,11 @@
 import React from "react";
 import youtubeLogo from "../assets/images/logos/youtube.png";
-import Triangle from "./Triangle";
+import TriangleBackground from "./TriangleBackground";
 
 const Footer = () => (
   <footer className="footer__section">
     <div className="footer">
-      <Triangle />
+      <TriangleBackground />
       <div className="footer__info">
         <ol className="footer__info-ol">
           <li>
@@ -28,7 +28,7 @@ const Footer = () => (
         />
       </div>
       <div className="footer__bg-color"></div>
-      <Triangle rotate={true} />
+      <TriangleBackground rotate={true} />
     </div>
   </footer>
 );

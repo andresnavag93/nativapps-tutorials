@@ -1,30 +1,16 @@
 import React from "react";
-import bannerImage from "../assets/images/banners/banner.jpg";
-import footerImage from "../assets/images/banners/footer.jpg";
-import Triangle from "./Triangle";
+import TriangleBackground from "./TriangleBackground";
 
-const Banner = ({ type = "banner" }) => {
-  let content, customStyle;
-  if (type === "footer") {
-    content = <img src={footerImage} height="73" alt="Banner sin texto" />;
-  } else {
-    content = (
-      <>
-        <h1 className="banner__heading">Tutorías online</h1>
-        <div className="banner__hr" />
-        <h3 className="banner__description">Clases en vivo</h3>
-      </>
-    );
-  }
+const Banner = () => {
   return (
     <section className="banner__section">
       <div className="banner">
-        <Triangle />
+        <TriangleBackground />
         <h1 className="banner__heading">Tutorías online</h1>
         <div className="banner__hr" />
         <h3 className="banner__description">Clases en vivo</h3>
         <div className="banner__bg-color"></div>
-        <Triangle rotate={true} />
+        <TriangleBackground rotate={true} />
       </div>
     </section>
   );
