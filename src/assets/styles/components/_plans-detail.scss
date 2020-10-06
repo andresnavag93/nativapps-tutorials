@@ -106,3 +106,9 @@
     margin-left: 8.5rem;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .plans-detail__ul {
+    margin-left: 6rem;
+  }
+}
